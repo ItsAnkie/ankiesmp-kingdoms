@@ -1,0 +1,9 @@
+name: AnkieSMP-Kingdom
+description: $description
+version: '${version}'
+
+main: com.ankieSMP.ankieSMPKingdom.AnkieSMPKingdom
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ XTC, RensJAM ]
