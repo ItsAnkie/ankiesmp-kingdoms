@@ -1,0 +1,124 @@
+[13:16:55] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.1+8-LTS; Azul Systems, Inc. Zulu25.30+17-CA) on Windows 11 10.0 (amd64)
+[13:16:55] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-62-main@75c0b48 (2026-07-17T17:14:52Z) for Minecraft 26.2
+[13:16:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:16:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[13:16:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - Dominium (0.1.0-SNAPSHOT)
+[13:16:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:17:00] [ServerMain/INFO]: Loaded 1585 recipes
+[13:17:00] [ServerMain/INFO]: Loaded 1688 advancements
+[13:17:00] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:17:00] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 261.1ms
+[13:17:00] [Server thread/INFO]: Starting minecraft server version 26.2
+[13:17:00] [Server thread/INFO]: Loading properties
+[13:17:00] [Server thread/INFO]: This server is running Paper version 26.2-62-main@75c0b48 (2026-07-17T17:14:52Z) (Implementing API version 26.2.build.62-beta)
+[13:17:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:17:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:17:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:17:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
+[13:17:01] [Server thread/INFO]: Default game type: SURVIVAL
+[13:17:01] [Server thread/INFO]: Generating keypair
+[13:17:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:17:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:17:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:17:01] [Server thread/INFO]: [Dominium] Loading server plugin Dominium v0.1.0-SNAPSHOT
+[13:17:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:17:01] [Server thread/INFO]: Preparing level "world"
+[13:17:01] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[13:17:01] [Server thread/INFO]: Prepared spawn area in 8 ms
+[13:17:01] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[13:17:01] [Server thread/INFO]: Prepared spawn area in 14 ms
+[13:17:01] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[13:17:01] [Server thread/INFO]: Preparing spawn area: 100%
+[13:17:01] [Server thread/INFO]: Prepared spawn area in 15 ms
+[13:17:01] [Server thread/INFO]: Done preparing level "world" (0.326s)
+[13:17:01] [Server thread/INFO]: [Dominium] Enabling Dominium v0.1.0-SNAPSHOT
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.core.bootstrap.DominiumCore] Dominium driver provenance: org.sqlite.JDBC loaded from file:/C:/dev/ankiesmp-kingdoms/run/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar via classloader java.net.URLClassLoader@1a6c5a9e
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.core.bootstrap.DominiumCore] Dominium driver provenance: org.sqlite.core.NativeDB loaded from file:/C:/dev/ankiesmp-kingdoms/run/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar via classloader java.net.URLClassLoader@1a6c5a9e
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.libs.hikari.HikariDataSource] dominium-sqlite - Starting...
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.libs.hikari.pool.HikariPool] dominium-sqlite - Added connection org.sqlite.jdbc4.JDBC4Connection@6de069ab
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.libs.hikari.HikariDataSource] dominium-sqlite - Start completed.
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.core.bootstrap.DominiumCore] Dominium JDBC driver: SQLite JDBC 3.49.1.0
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.storage.migrations.MigrationRunner] Dominium migrations discovered: V1(initial claim block ledger), V2(bank operation journal), V3(claims)
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.storage.migrations.MigrationRunner]   V1 'initial claim block ledger' -> applying...
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.storage.migrations.MigrationRunner]   V1 'initial claim block ledger' -> OK
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.storage.migrations.MigrationRunner]   V2 'bank operation journal' -> applying...
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.storage.migrations.MigrationRunner]   V2 'bank operation journal' -> OK
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.storage.migrations.MigrationRunner]   V3 'claims' -> applying...
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.storage.migrations.MigrationRunner]   V3 'claims' -> OK
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.storage.migrations.MigrationRunner] Dominium migrations: 3 migration(s) applied.
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.core.bootstrap.DominiumCore] Initial claim block grant enabled: 1000 blocks per new player.
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.core.bootstrap.DominiumCore] Dominium core online.
+[13:17:01] [Server thread/INFO]: [dev.ankiesmp.dominium.paper.service.DominiumServices] Dominium services online.
+[13:17:01] [Server thread/INFO]: [Dominium] Dominium enabled - Phase 0/1 services online.
+[13:17:01] [Server thread/INFO]: [spark] Starting background profiler...
+[13:17:01] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:17:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:17:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:17:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:17:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:17:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:17:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:17:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:17:02] [Server thread/INFO]: Running delayed init tasks
+[13:17:02] [Server thread/INFO]: Done (7.612s)! For help, type "help"
+[13:17:04] [User Authenticator #0/INFO]: UUID of player 7040K is 77c8d172-fac1-4c3c-951d-23ac7085c61f
+[13:17:05] [Server thread/INFO]: 7040K joined the game
+[13:17:05] [Server thread/INFO]: 7040K[/127.0.0.1:60572] logged in with entity id 52 at ([minecraft:overworld]54.04344592619976, 67.03872667980228, -14.623428830897083)
+[13:17:08] [Server thread/INFO]: 7040K issued server command: /dominium claimblocks grant Rens 100
+[13:17:08] [dominium-db/INFO]: [Dominium] Admin grant by ADMIN:7040K for 'Rens' rejected: UNKNOWN_PLAYER
+[13:17:12] [Server thread/INFO]: 7040K issued server command: /dominium claimblocks grant 7040K -10
+[13:17:15] [Server thread/INFO]: 7040K issued server command: /dominium claimblocks grant 7040K 10
+[13:17:15] [dominium-db/INFO]: [Dominium] ADMIN:7040K granted 10 claim blocks to 7040K (77c8d172-fac1-4c3c-951d-23ac7085c61f) key=2a0f535c-c333-4e0e-b7bd-da4958935e44 kind=APPLIED balance=1010
+[13:17:25] [Server thread/INFO]: 7040K issued server command: /dominium claimblocks grant 11111111-2222-4333-8444-555555555555 100
+[13:17:25] [dominium-db/INFO]: [Dominium] Admin grant by ADMIN:7040K for '11111111-2222-4333-8444-555555555555' rejected: UNKNOWN_PLAYER
+[13:17:37] [Server thread/INFO]: 7040K issued server command: /dominium claimblocks grant 1-2-3-4-5 100
+[13:17:37] [dominium-db/INFO]: [Dominium] Admin grant by ADMIN:7040K for '1-2-3-4-5' rejected: UNKNOWN_PLAYER
+[13:17:54] [Server thread/INFO]: 7040K issued server command: /dominium claimblocks grant 704 10
+[13:17:54] [dominium-db/INFO]: [Dominium] Admin grant by ADMIN:7040K for '704' rejected: UNKNOWN_PLAYER
+[13:17:57] [Server thread/INFO]: 7040K issued server command: /dominium claimblocks grant 704 100
+[13:17:57] [dominium-db/INFO]: [Dominium] Admin grant by ADMIN:7040K for '704' rejected: UNKNOWN_PLAYER
+[13:18:01] [Server thread/INFO]: 7040K issued server command: /dominium claimblocks grant 7040 100
+[13:18:01] [dominium-db/INFO]: [Dominium] Admin grant by ADMIN:7040K for '7040' rejected: UNKNOWN_PLAYER
+[13:18:25] [Server thread/INFO]: 7040K issued server command: /dominium claimblocks grant 7040K 10
+[13:18:25] [dominium-db/INFO]: [Dominium] ADMIN:7040K granted 10 claim blocks to 7040K (77c8d172-fac1-4c3c-951d-23ac7085c61f) key=b9fb1eef-cf89-41c1-9751-f4a4601170a1 kind=APPLIED balance=1020
+[13:18:40] [Server thread/INFO]: Stopping the server
+[13:18:40] [Server thread/INFO]: Stopping server
+[13:18:40] [Server thread/INFO]: [Dominium] Disabling Dominium v0.1.0-SNAPSHOT
+[13:18:40] [Server thread/INFO]: [dev.ankiesmp.dominium.libs.hikari.HikariDataSource] dominium-sqlite - Shutdown initiated...
+[13:18:40] [Server thread/INFO]: [dev.ankiesmp.dominium.libs.hikari.HikariDataSource] dominium-sqlite - Shutdown completed.
+[13:18:40] [Server thread/INFO]: [dev.ankiesmp.dominium.core.bootstrap.DominiumCore] Dominium core closed (HikariCP pool + db executor released).
+[13:18:40] [Server thread/INFO]: [Dominium] Dominium disabled.
+[13:18:40] [Server thread/INFO]: Saving players
+[13:18:40] [Server thread/INFO]: 7040K lost connection: Server closed
+[13:18:40] [Server thread/INFO]: 7040K left the game
+[13:18:41] [Server thread/INFO]: Saving worlds
+[13:18:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Saved 625 block chunks, 625 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.81s
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[13:18:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[13:18:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[13:18:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[13:18:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:18:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:18:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:18:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:18:41] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[13:18:41] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[13:18:41] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[13:18:41] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.territory.OwnBorderVisibilityTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.703Z" hostname="DESKTOP-MKGL964" time="0.001">
+  <properties/>
+  <testcase name="kingdomMemberSeesOwnBorder()" classname="dev.ankiesmp.dominium.core.territory.OwnBorderVisibilityTest" time="0.0"/>
+  <testcase name="kingdomLeaderSeesOwnBorder()" classname="dev.ankiesmp.dominium.core.territory.OwnBorderVisibilityTest" time="0.001"/>
+  <testcase name="foreignClaimAlwaysSelectedInRange()" classname="dev.ankiesmp.dominium.core.territory.OwnBorderVisibilityTest" time="0.0"/>
+  <testcase name="ownerSkippedWhenOnlyForeignTrue()" classname="dev.ankiesmp.dominium.core.territory.OwnBorderVisibilityTest" time="0.0"/>
+  <testcase name="ownerSeesOwnBorderWhenOnlyForeignFalse()" classname="dev.ankiesmp.dominium.core.territory.OwnBorderVisibilityTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

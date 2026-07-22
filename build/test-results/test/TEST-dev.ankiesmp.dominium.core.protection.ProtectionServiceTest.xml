@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.protection.ProtectionServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.678Z" hostname="DESKTOP-MKGL964" time="0.002">
+  <properties/>
+  <testcase name="strangerCannotBuildInsideClaim()" classname="dev.ankiesmp.dominium.core.protection.ProtectionServiceTest" time="0.0"/>
+  <testcase name="safeDefaultDeniesUnspecifiedFlag()" classname="dev.ankiesmp.dominium.core.protection.ProtectionServiceTest" time="0.001"/>
+  <testcase name="anonymousActorFallsThroughToPublic()" classname="dev.ankiesmp.dominium.core.protection.ProtectionServiceTest" time="0.0"/>
+  <testcase name="wildernessAlwaysAllowedRegardlessOfActor()" classname="dev.ankiesmp.dominium.core.protection.ProtectionServiceTest" time="0.0"/>
+  <testcase name="denyWinsOverPublicAllow()" classname="dev.ankiesmp.dominium.core.protection.ProtectionServiceTest" time="0.001"/>
+  <testcase name="strangerMayEnterButNotOpenContainer()" classname="dev.ankiesmp.dominium.core.protection.ProtectionServiceTest" time="0.0"/>
+  <testcase name="ownerCanBuildInsideOwnClaim()" classname="dev.ankiesmp.dominium.core.protection.ProtectionServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

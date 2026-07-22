@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:10.652Z" hostname="DESKTOP-MKGL964" time="0.006">
+  <properties/>
+  <testcase name="unionAddsAdjacentRect()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.001"/>
+  <testcase name="containsPerRegion()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.0"/>
+  <testcase name="trapShapeConnected()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.0"/>
+  <testcase name="unionInsideIsNoOp()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.0"/>
+  <testcase name="unionCornerOnlyRejected()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.0"/>
+  <testcase name="unionOverlapCostsOnlyUniqueBlocks()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.0"/>
+  <testcase name="boundsAcrossRegions()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.0"/>
+  <testcase name="lShapeAreaSum()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.001"/>
+  <testcase name="unionDetachedRejected()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.0"/>
+  <testcase name="rectangleArea()" classname="dev.ankiesmp.dominium.core.claim.ClaimGeometryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

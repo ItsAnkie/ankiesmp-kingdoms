@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.paper.gui.BankPresetsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.740Z" hostname="DESKTOP-MKGL964" time="0.001">
+  <properties/>
+  <testcase name="depositPresetsAreExact()" classname="dev.ankiesmp.dominium.paper.gui.BankPresetsTest" time="0.0"/>
+  <testcase name="buyPresetsAreExact()" classname="dev.ankiesmp.dominium.paper.gui.BankPresetsTest" time="0.0"/>
+  <testcase name="withdrawPresetsAreExact()" classname="dev.ankiesmp.dominium.paper.gui.BankPresetsTest" time="0.0"/>
+  <testcase name="contributePresetsAreExact()" classname="dev.ankiesmp.dominium.paper.gui.BankPresetsTest" time="0.0"/>
+  <testcase name="unrelatedActionsYieldZero()" classname="dev.ankiesmp.dominium.paper.gui.BankPresetsTest" time="0.0"/>
+  <testcase name="minorConversionIsHundredfold()" classname="dev.ankiesmp.dominium.paper.gui.BankPresetsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

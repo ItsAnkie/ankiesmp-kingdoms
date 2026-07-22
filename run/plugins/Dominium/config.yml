@@ -1,0 +1,6 @@
+database:
+  # Enige ondersteunde waarde in fase 0. PostgreSQL komt in een latere fase.
+  type: sqlite
+  sqlite:
+    # File wordt aangelegd binnen plugins/Dominium/.
+    file: data.db

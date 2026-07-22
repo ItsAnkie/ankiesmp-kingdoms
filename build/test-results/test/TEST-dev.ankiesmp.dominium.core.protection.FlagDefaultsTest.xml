@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.protection.FlagDefaultsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.662Z" hostname="DESKTOP-MKGL964" time="0.006">
+  <properties/>
+  <testcase name="kingdomMemberCanBuildAndContainer()" classname="dev.ankiesmp.dominium.core.protection.FlagDefaultsTest" time="0.0"/>
+  <testcase name="allyHasEntryButNoBuildOrContainer()" classname="dev.ankiesmp.dominium.core.protection.FlagDefaultsTest" time="0.0"/>
+  <testcase name="publicHasOnlyEntry()" classname="dev.ankiesmp.dominium.core.protection.FlagDefaultsTest" time="0.0"/>
+  <testcase name="visitorAllowsDoorsAndEntry()" classname="dev.ankiesmp.dominium.core.protection.FlagDefaultsTest" time="0.0"/>
+  <testcase name="visitorNeverGetsContainer()" classname="dev.ankiesmp.dominium.core.protection.FlagDefaultsTest" time="0.0"/>
+  <testcase name="personalOwnerAllowsEverything()" classname="dev.ankiesmp.dominium.core.protection.FlagDefaultsTest" time="0.001"/>
+  <testcase name="personalVisitorMatchesInvariants()" classname="dev.ankiesmp.dominium.core.protection.FlagDefaultsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

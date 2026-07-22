@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.659Z" hostname="DESKTOP-MKGL964" time="0.003">
+  <properties/>
+  <testcase name="unknownNameIsRejected()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.001"/>
+  <testcase name="randomValidUuidIsRejected()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="onlineUuidResolvesFromOnlineList()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="caseInsensitiveExactNameResolvesKnownPlayer()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="knownOfflineUuidResolves()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="completionsOnlyIncludeKnownPlayers()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="malformedUuidIsNotAcceptedAsAName()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="completionsDeduplicate()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="similarButNotEqualNameIsRejected()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="emptyInputRejected()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="knownOfflineNameResolves()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <testcase name="onlineExactNameResolves()" classname="dev.ankiesmp.dominium.core.player.PlayerTargetResolverTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

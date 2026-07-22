@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.activity.ActivityTrackerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:09.706Z" hostname="DESKTOP-MKGL964" time="0.005">
+  <properties/>
+  <testcase name="reconnectStartsFresh()" classname="dev.ankiesmp.dominium.core.activity.ActivityTrackerTest" time="0.002"/>
+  <testcase name="continuousActivityAccrues()" classname="dev.ankiesmp.dominium.core.activity.ActivityTrackerTest" time="0.0"/>
+  <testcase name="quitReturnsAccrued()" classname="dev.ankiesmp.dominium.core.activity.ActivityTrackerTest" time="0.001"/>
+  <testcase name="afkGapDoesNotAccrue()" classname="dev.ankiesmp.dominium.core.activity.ActivityTrackerTest" time="0.0"/>
+  <testcase name="drainResetsAndKeepsSession()" classname="dev.ankiesmp.dominium.core.activity.ActivityTrackerTest" time="0.0"/>
+  <testcase name="multiplePlayers()" classname="dev.ankiesmp.dominium.core.activity.ActivityTrackerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

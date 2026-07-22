@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.paper.hud.HudMessageTemplateTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.743Z" hostname="DESKTOP-MKGL964" time="0.047">
+  <properties/>
+  <testcase name="ownerPlaceholderResolves()" classname="dev.ankiesmp.dominium.paper.hud.HudMessageTemplateTest" time="0.046"/>
+  <testcase name="kingdomPlaceholderResolves()" classname="dev.ankiesmp.dominium.paper.hud.HudMessageTemplateTest" time="0.001"/>
+  <testcase name="malformedTemplateFallsBackGracefully()" classname="dev.ankiesmp.dominium.paper.hud.HudMessageTemplateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

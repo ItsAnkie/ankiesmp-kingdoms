@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.689Z" hostname="DESKTOP-MKGL964" time="0.003">
+  <properties/>
+  <testcase name="pointsNearPlayer()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" time="0.0"/>
+  <testcase name="budgetCapReturnsClosestPoints()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" time="0.001"/>
+  <testcase name="distanceInsideClaim()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" time="0.0"/>
+  <testcase name="distanceOutsideClaim()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" time="0.0"/>
+  <testcase name="largerSpacingProducesFewerPoints()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" time="0.0"/>
+  <testcase name="playerFarAwayHasNoPoints()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" time="0.001"/>
+  <testcase name="inTriggerRange()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" time="0.0"/>
+  <testcase name="configValidatesArguments()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" time="0.0"/>
+  <testcase name="allPointsAreUnique()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

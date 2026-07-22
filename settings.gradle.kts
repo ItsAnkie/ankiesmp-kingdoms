@@ -1,1 +1,1 @@
-rootProject.name = "AnkieSMP-Kingdom"
+rootProject.name = "dominium"

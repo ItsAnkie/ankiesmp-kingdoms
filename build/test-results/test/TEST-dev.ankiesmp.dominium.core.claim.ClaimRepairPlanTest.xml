@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.claim.ClaimRepairPlanTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:10.896Z" hostname="DESKTOP-MKGL964" time="0.003">
+  <properties/>
+  <testcase name="detachedClaimsAreUnsafe()" classname="dev.ankiesmp.dominium.core.claim.ClaimRepairPlanTest" time="0.0"/>
+  <testcase name="differentWorldsIsUnsafe()" classname="dev.ankiesmp.dominium.core.claim.ClaimRepairPlanTest" time="0.001"/>
+  <testcase name="boundingBoxOverlappingOtherIsUnsafe()" classname="dev.ankiesmp.dominium.core.claim.ClaimRepairPlanTest" time="0.0"/>
+  <testcase name="insufficientBalanceBlocksMerge()" classname="dev.ankiesmp.dominium.core.claim.ClaimRepairPlanTest" time="0.0"/>
+  <testcase name="identicalGeometryIsTrivialDuplicate()" classname="dev.ankiesmp.dominium.core.claim.ClaimRepairPlanTest" time="0.0"/>
+  <testcase name="adjacentEdgeIsSafeMerge()" classname="dev.ankiesmp.dominium.core.claim.ClaimRepairPlanTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

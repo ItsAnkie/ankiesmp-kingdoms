@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryLocalTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.682Z" hostname="DESKTOP-MKGL964" time="0.007">
+  <properties/>
+  <testcase name="respectsMaxBudget()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryLocalTest" time="0.002"/>
+  <testcase name="nearOneSideRendersOnlyThatSide()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryLocalTest" time="0.002"/>
+  <testcase name="pointsAreUnique()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryLocalTest" time="0.001"/>
+  <testcase name="farFromSecondSideDoesNotAddIt()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryLocalTest" time="0.001"/>
+  <testcase name="nearCornerRendersAtMostTwoSides()" classname="dev.ankiesmp.dominium.core.territory.ClaimBorderGeometryLocalTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

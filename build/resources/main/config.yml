@@ -1,0 +1,120 @@
+# Wordt automatisch verhoogd bij backward-incompatibele config-migraties.
+# Verlaag/verwijder nooit handmatig; de loader gebruikt dit alleen voor
+# éénmalige key-migraties.
+config-version: 3
+
+database:
+  # Enige ondersteunde waarde in fase 0. PostgreSQL komt in een latere fase.
+  type: sqlite
+  sqlite:
+    # File wordt aangelegd binnen plugins/Dominium/.
+    file: data.db
+
+claim-blocks:
+  # Startsaldo dat elke speler exact een keer krijgt, geboekt via de ledger
+  # met reason INITIAL_GRANT en een deterministische idempotency key
+  # (initial-player-grant:<player-uuid>). Zet op 0 om de automatische
+  # grant volledig uit te schakelen. Negatieve waarden worden geweigerd.
+  starting-balance: 1000
+
+activity:
+  # Zonder actie binnen dit venster (in seconden) telt een speler als AFK.
+  window-seconds: 300
+  # Interval waarmee sessiedeltas naar de db geflusht worden.
+  flush-interval-seconds: 60
+
+earning:
+  # Blocks per interval van actieve speeltijd. 0 = uit.
+  blocks-per-interval: 4
+  # Lengte van het earning-interval in seconden.
+  interval-seconds: 300
+  # Harde daily cap (per UTC-dag). 0 = uit.
+  daily-cap: 500
+  # Hoe vaak de earner draait (in seconden). Bij voorkeur == interval-seconds.
+  tick-seconds: 60
+
+hud:
+  # Minimum tijd tussen twee actionbar-updates voor dezelfde speler.
+  refresh-millis: 750
+
+expiry:
+  # Wanneer aan: verwijder persoonlijke claims van inactieve owners.
+  enabled: false
+  # Owner-inactiviteit die tot expiry leidt (in dagen).
+  inactivity-days: 60
+  # Minimum leeftijd van een claim voordat hij uberhaupt kan expiren (in dagen).
+  min-age-days: 3
+  # Hoe vaak de scan draait (in minuten).
+  scan-interval-minutes: 60
+
+kingdom:
+  # Naam-validatie voor /kingdom create.
+  name-min-length: 3
+  name-max-length: 24
+  # Invites verlopen na deze duur.
+  invite-ttl-minutes: 10
+  # Confirm-flow (disband, transfer) verloopt na deze tijd.
+  confirm-ttl-seconds: 30
+
+claim-border-particles:
+  enabled: true
+  particle: DUST
+  color:
+    red: 50
+    green: 255
+    blue: 50
+  size: 1.0
+  # Begin renderen binnen deze afstand tot de border.
+  trigger-distance: 5.0
+  # Blijf renderen tot deze afstand (hysteresis voorkomt flikkeren op de grens).
+  hide-distance: 6.5
+  # Absolute max samplerange langs een zijde (bounding voor point-generatie).
+  render-distance: 11.0
+  spacing: 0.9
+  update-interval-ticks: 6
+  max-particles-per-player: 60
+  only-foreign-claims: false
+  terrain-following: true
+  vertical-offset: 0.25
+  debug: false
+
+territory-hud:
+  enabled: true
+  refresh-interval-ticks: 20
+  wilderness: "<aqua>♣ <white>Wilderness <light_purple>♣"
+  personal-owner:    "<green><owner>'s claim <gray>(Owner)"
+  personal-trusted:  "<green><owner>'s claim <gray>(Trusted)"
+  personal-visitor:  "<green><owner>'s claim <gray>(Visitor)"
+  personal-public:   "<green><owner>'s claim"
+  kingdom-leader:    "<green><kingdom> <gray>(Leader)"
+  kingdom-co-leader: "<green><kingdom> <gray>(Co-Leader)"
+  kingdom-member:    "<green><kingdom> <gray>(Member)"
+  kingdom-visitor:   "<green><kingdom> <gray>(Visitor)"
+  kingdom-public:    "<green><kingdom>"
+
+kingdom-gui:
+  enabled: true
+  main-title: "<dark_green>Kingdom"
+  members-title: "<dark_green>Kingdom Members"
+  invites-title: "<gold>Kingdom Invites"
+  visitors-title: "<aqua>Kingdom Visitors"
+
+# Fase 5: kingdom bank + claimblockpool.
+kingdom-bank:
+  enabled: true
+  # Max saldo in geld-major-units (bijv. euro). Intern gebruikt de bank
+  # altijd integer minor-units (cent). Waarde is de bovengrens per kingdom.
+  max-balance: 1000000000.00
+
+kingdom-claimblocks:
+  contribution-enabled: true
+  purchasing-enabled: true
+  # Prijs voor één claim block, in geld-major-units.
+  price-per-block: 10.00
+  max-purchase-per-operation: 10000
+
+integrations:
+  worldguard:
+    enabled: true
+    block-claims-in-regions: true
+    ignore-global-region: true

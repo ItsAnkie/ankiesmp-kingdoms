@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.protection.KingdomAwareAudienceResolverTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.669Z" hostname="DESKTOP-MKGL964" time="0.005">
+  <properties/>
+  <testcase name="precedenceLeaderCoLeaderMemberVisitorPublic()" classname="dev.ankiesmp.dominium.core.protection.KingdomAwareAudienceResolverTest" time="0.003"/>
+  <testcase name="personalClaimsGoToPersonalResolver()" classname="dev.ankiesmp.dominium.core.protection.KingdomAwareAudienceResolverTest" time="0.0"/>
+  <testcase name="memberOfDifferentKingdomIsPublic()" classname="dev.ankiesmp.dominium.core.protection.KingdomAwareAudienceResolverTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

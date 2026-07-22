@@ -1,0 +1,31 @@
+name: Dominium
+description: Dominium - block claims, kingdoms as teams, consensual wars
+version: '0.1.0-SNAPSHOT'
+
+main: dev.ankiesmp.dominium.paper.DominiumPlugin
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ AnkieSMP ]
+
+commands:
+  claim:
+    description: Manage personal (and later kingdom) claims.
+    usage: "/claim <tool|info|list|blocks|trust|untrust|visitor|noaccess|access|confirm|abandon>"
+  dominium:
+    description: Dominium plugin utilities and admin operations.
+    usage: "/dominium <tool|version|claimblocks>"
+  kingdom:
+    description: Manage kingdoms (create, invite, members, visitors, bank, claimblocks).
+    usage: "/kingdom <create|info|members|invite|accept|decline|invites|leave|kick|promote|demote|transfer|disband|confirm|visitor|visitors|bank|claimblocks>"
+
+permissions:
+  dominium.claimblocks.admin:
+    description: Allows granting claim blocks via /dominium claimblocks grant.
+    default: op
+  dominium.bank.admin:
+    description: Allows /dominium bank operations for reviewing incomplete bank ops.
+    default: op
+  dominium.claims.admin:
+    description: Allows /dominium claims inspect/delete/transfer/repair.
+    default: op

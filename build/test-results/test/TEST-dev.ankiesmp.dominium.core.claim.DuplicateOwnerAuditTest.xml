@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.core.claim.DuplicateOwnerAuditTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:11.056Z" hostname="DESKTOP-MKGL964" time="0.004">
+  <properties/>
+  <testcase name="adminClaimsAreExempt()" classname="dev.ankiesmp.dominium.core.claim.DuplicateOwnerAuditTest" time="0.0"/>
+  <testcase name="detectsPersonalDuplicates()" classname="dev.ankiesmp.dominium.core.claim.DuplicateOwnerAuditTest" time="0.002"/>
+  <testcase name="cleanIndexReturnsEmpty()" classname="dev.ankiesmp.dominium.core.claim.DuplicateOwnerAuditTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

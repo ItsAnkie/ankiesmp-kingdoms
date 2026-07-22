@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.ankiesmp.dominium.paper.service.DominiumServicesBootstrapTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-07-22T07:53:13.790Z" hostname="DESKTOP-MKGL964" time="0.125">
+  <properties/>
+  <testcase name="bootstrapClosesResourcesWhenMigrationFails()" classname="dev.ankiesmp.dominium.paper.service.DominiumServicesBootstrapTest" time="0.023"/>
+  <testcase name="secondBootstrapReusesSchemaWithoutErrors()" classname="dev.ankiesmp.dominium.paper.service.DominiumServicesBootstrapTest" time="0.042"/>
+  <testcase name="closingCoreShutsDownHikariAndExecutor()" classname="dev.ankiesmp.dominium.paper.service.DominiumServicesBootstrapTest" time="0.032"/>
+  <testcase name="headlessBootstrapAppliesAllMigrationsAndCreatesTables()" classname="dev.ankiesmp.dominium.paper.service.DominiumServicesBootstrapTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Starting...
+[Test worker] INFO com.zaxxer.hikari.pool.HikariPool - dominium-sqlite - Added connection org.sqlite.jdbc4.JDBC4Connection@562457e1
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Start completed.
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner - Dominium migrations discovered: V999(kapot)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V999 'kapot' -> applying...
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown initiated...
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown completed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium driver provenance: org.sqlite.JDBC loaded from file:/C:/Users/ginow/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.50.1.0/6b1e999f284a82ae07f0e9ec455d3f2035614c6/sqlite-jdbc-3.50.1.0.jar via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@105be200
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium driver provenance: org.sqlite.core.NativeDB loaded from file:/C:/Users/ginow/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.50.1.0/6b1e999f284a82ae07f0e9ec455d3f2035614c6/sqlite-jdbc-3.50.1.0.jar via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@105be200
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Starting...
+[Test worker] INFO com.zaxxer.hikari.pool.HikariPool - dominium-sqlite - Added connection org.sqlite.jdbc4.JDBC4Connection@4e2916c3
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Start completed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium JDBC driver: SQLite JDBC 3.50.1.0
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner - Dominium migrations discovered: V1(initial claim block ledger), V2(bank operation journal), V3(claims), V4(access and activity), V5(kingdoms), V7(kingdom bank and regions)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V1 'initial claim block ledger' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V1 'initial claim block ledger' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V2 'bank operation journal' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V2 'bank operation journal' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V3 'claims' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V3 'claims' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V4 'access and activity' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V4 'access and activity' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V5 'kingdoms' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V5 'kingdoms' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V7 'kingdom bank and regions' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V7 'kingdom bank and regions' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner - Dominium migrations: 6 migration(s) applied.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - V6 single-claim unique index installed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Initial claim block grant disabled (starting-balance = 0).
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Active-play earner disabled.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Inactivity expiry disabled.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium core online.
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown initiated...
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown completed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium core closed (HikariCP pool + db executor released).
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium driver provenance: org.sqlite.JDBC loaded from file:/C:/Users/ginow/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.50.1.0/6b1e999f284a82ae07f0e9ec455d3f2035614c6/sqlite-jdbc-3.50.1.0.jar via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@105be200
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium driver provenance: org.sqlite.core.NativeDB loaded from file:/C:/Users/ginow/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.50.1.0/6b1e999f284a82ae07f0e9ec455d3f2035614c6/sqlite-jdbc-3.50.1.0.jar via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@105be200
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Starting...
+[Test worker] INFO com.zaxxer.hikari.pool.HikariPool - dominium-sqlite - Added connection org.sqlite.jdbc4.JDBC4Connection@2f5c1332
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Start completed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium JDBC driver: SQLite JDBC 3.50.1.0
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner - Dominium migrations discovered: V1(initial claim block ledger), V2(bank operation journal), V3(claims), V4(access and activity), V5(kingdoms), V7(kingdom bank and regions)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V1 'initial claim block ledger' -> SKIP (already applied)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V2 'bank operation journal' -> SKIP (already applied)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V3 'claims' -> SKIP (already applied)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V4 'access and activity' -> SKIP (already applied)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V5 'kingdoms' -> SKIP (already applied)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V7 'kingdom bank and regions' -> SKIP (already applied)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner - Dominium migrations: nothing to apply, schema up-to-date.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Initial claim block grant disabled (starting-balance = 0).
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Active-play earner disabled.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Inactivity expiry disabled.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium core online.
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown initiated...
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown completed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium core closed (HikariCP pool + db executor released).
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium driver provenance: org.sqlite.JDBC loaded from file:/C:/Users/ginow/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.50.1.0/6b1e999f284a82ae07f0e9ec455d3f2035614c6/sqlite-jdbc-3.50.1.0.jar via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@105be200
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium driver provenance: org.sqlite.core.NativeDB loaded from file:/C:/Users/ginow/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.50.1.0/6b1e999f284a82ae07f0e9ec455d3f2035614c6/sqlite-jdbc-3.50.1.0.jar via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@105be200
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Starting...
+[Test worker] INFO com.zaxxer.hikari.pool.HikariPool - dominium-sqlite - Added connection org.sqlite.jdbc4.JDBC4Connection@2b556bb2
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Start completed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium JDBC driver: SQLite JDBC 3.50.1.0
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner - Dominium migrations discovered: V1(initial claim block ledger), V2(bank operation journal), V3(claims), V4(access and activity), V5(kingdoms), V7(kingdom bank and regions)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V1 'initial claim block ledger' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V1 'initial claim block ledger' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V2 'bank operation journal' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V2 'bank operation journal' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V3 'claims' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V3 'claims' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V4 'access and activity' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V4 'access and activity' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V5 'kingdoms' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V5 'kingdoms' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V7 'kingdom bank and regions' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V7 'kingdom bank and regions' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner - Dominium migrations: 6 migration(s) applied.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - V6 single-claim unique index installed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Initial claim block grant disabled (starting-balance = 0).
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Active-play earner disabled.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Inactivity expiry disabled.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium core online.
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown initiated...
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown completed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium core closed (HikariCP pool + db executor released).
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium driver provenance: org.sqlite.JDBC loaded from file:/C:/Users/ginow/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.50.1.0/6b1e999f284a82ae07f0e9ec455d3f2035614c6/sqlite-jdbc-3.50.1.0.jar via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@105be200
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium driver provenance: org.sqlite.core.NativeDB loaded from file:/C:/Users/ginow/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.50.1.0/6b1e999f284a82ae07f0e9ec455d3f2035614c6/sqlite-jdbc-3.50.1.0.jar via classloader jdk.internal.loader.ClassLoaders$AppClassLoader@105be200
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Starting...
+[Test worker] INFO com.zaxxer.hikari.pool.HikariPool - dominium-sqlite - Added connection org.sqlite.jdbc4.JDBC4Connection@1e6dad8
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Start completed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium JDBC driver: SQLite JDBC 3.50.1.0
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner - Dominium migrations discovered: V1(initial claim block ledger), V2(bank operation journal), V3(claims), V4(access and activity), V5(kingdoms), V7(kingdom bank and regions)
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V1 'initial claim block ledger' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V1 'initial claim block ledger' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V2 'bank operation journal' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V2 'bank operation journal' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V3 'claims' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V3 'claims' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V4 'access and activity' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V4 'access and activity' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V5 'kingdoms' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V5 'kingdoms' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V7 'kingdom bank and regions' -> applying...
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner -   V7 'kingdom bank and regions' -> OK
+[Test worker] INFO dev.ankiesmp.dominium.storage.migrations.MigrationRunner - Dominium migrations: 6 migration(s) applied.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - V6 single-claim unique index installed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Initial claim block grant disabled (starting-balance = 0).
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Active-play earner disabled.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Inactivity expiry disabled.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium core online.
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown initiated...
+[Test worker] INFO com.zaxxer.hikari.HikariDataSource - dominium-sqlite - Shutdown completed.
+[Test worker] INFO dev.ankiesmp.dominium.core.bootstrap.DominiumCore - Dominium core closed (HikariCP pool + db executor released).
+]]></system-err>
+</testsuite>
